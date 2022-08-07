@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital@1&family=Merienda:wght@700&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Pirata+One&family=Satisfy&family=Tiro+Devanagari+Marathi:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trocchi', serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    background: url("image/white-wall-textures.jpg");
+}
+.logo {
+    display: flex;
+    margin-bottom: 1.5em;
+    margin-left: 4em;
+}
+.main-top{
+    display: flex;
+    width: 120rem;
+    height: 8rem;
+    justify-content: space-between;
+    border: solid black 1px;
+    margin: auto;
+    margin-bottom: 2rem;
+    
+}
+
+.main-top ul {
+    display: flex;
+    height: 4em;
+    border: solid red 1px;
+    min-width: 20rem;
+    margin: auto;
+    flex-direction: row;
+    border: solid red 0px;
+    margin-right:20em;
+    
+}
+
+.main-top li {
+        display: flex;
+        flex-direction: row;
+        border: solid 0px green;
+        min-width: 2rem;
+        color: #00dfc0 ;
+        align-items: center;
+        border: solid green 0px;
+        min-height: 3em;
+        text-align: center;
+        margin-left: ;
+        
+}
+
+.main-top li a {
+    font-size: 1.7em;
+    color: #385a64;
+    margin-right: 1em;
+    text-decoration: none;
+    margin: auto;
+    margin-right: 1.5em;
+    font-family: 'Trocchi', serif;
+}
+.main-top li a:hover{
+    text-decoration: underline;
+}
+
+.body {
+    display: flex;
+    border: solid black 0 px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: solid green 0px;
+}
+.p2{
+    display: flex;
+    width: 35%;
+    height: 18em;
+    border: solid #385a64 0px;
+    font-size: 1.6em;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.center-h2 h2{
+    display: flex;
+    margin: auto;
+    border: solid red 0px;
+    text-align: center;
+}
+
+.section-1 img{
+    display: flex;
+}
